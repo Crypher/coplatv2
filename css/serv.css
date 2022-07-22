@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:  Century Gothic ;
+
+}
+header {
+ background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url(../3.jpg);
+ height: 100vh;
+ background-size: cover;
+ background-position: center;
+}
+.main {
+  max-width: 2520px;
+  margin: 25px;
+  min-width: 75%;
+}
+.logo img {
+  margin: auto;
+  float: left;
+  width: 70px;
+  height: auto;
+}
+.title{
+  border: 5px solid;
+  padding: 10px 30px;
+  border-color: #FF6058;
+  color: #fff;
+  position: absolute;
+  top:10%;
+  left:45%;
+}
+.links{
+  position: absolute;
+  top:30%;
+  left:23%;
+}
+.links{
+  border: 3px solid;
+  padding: 7px 14px;
+  border-color: #6E3000 ;
+  font-size: 200%;
+color: #fff;
+}
+.con{
+  position: absolute;
+  top: 50%;
+  left: 23%;
+}
+.con{
+  border: 1px solid;
+  border-color: #F4FC4E;
+  padding: 3px 7px;
+  font-size: 220%;
+  color: #fff;
+}
+.instra{
+  position: absolute;
+  top: 60%;
+  left: 25%;
+  font-size: 180%;
+  color: #71EAFF;
+}
